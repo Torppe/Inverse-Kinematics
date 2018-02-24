@@ -3,6 +3,7 @@
 public class Limb : MonoBehaviour {
 
 	public Transform connectionPoint;
+	[HideInInspector]
 	public Transform endJoint;
 
 	private Vector2 direction;
